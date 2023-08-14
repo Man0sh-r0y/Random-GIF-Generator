@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background {
+   background: radial-gradient(#3126ff 15%, transparent 16%), linear-gradient(45deg, transparent 49%, #3126ff 49% 51%, transparent 51%), linear-gradient(-45deg, transparent 49%, #3126ff 49% 51%, transparent 51%);
+   background-size: 2em 2em;
+   background-color: #ffffff;
+   opacity: 1
+}
+
+.header{
+   background-image: linear-gradient(
+      50deg,
+      hsl(320deg 96% 51%) 0%,
+      hsl(320deg 96% 51%) 29%,
+      hsl(320deg 96% 51%) 44%,
+      hsl(320deg 96% 51%) 56%,
+      hsl(320deg 96% 51%) 65%,
+      hsl(320deg 96% 51%) 74%,
+      hsl(320deg 96% 51%) 82%,
+      hsl(320deg 96% 51%) 90%,
+      hsl(320deg 96% 51%) 100%
+    );
+}
+
+.random-gif-bg{
+   background-image: linear-gradient(
+      45deg,
+      hsl(123deg 96% 43%) 0%,
+      hsl(126deg 95% 45%) 11%,
+      hsl(129deg 93% 46%) 22%,
+      hsl(130deg 91% 47%) 33%,
+      hsl(132deg 90% 48%) 44%,
+      hsl(133deg 89% 49%) 56%,
+      hsl(134deg 89% 50%) 67%,
+      hsl(136deg 92% 52%) 78%,
+      hsl(137deg 96% 53%) 89%,
+      hsl(138deg 99% 54%) 100%
+   );
+}
+
+.srch-gif-bg{
+   background-image: linear-gradient(
+      45deg,
+      hsl(177deg 100% 45%) 0%,
+      hsl(180deg 100% 45%) 11%,
+      hsl(182deg 100% 46%) 22%,
+      hsl(184deg 100% 47%) 33%,
+      hsl(186deg 100% 48%) 44%,
+      hsl(188deg 100% 49%) 56%,
+      hsl(191deg 97% 55%) 67%,
+      hsl(194deg 99% 60%) 78%,
+      hsl(197deg 100% 64%) 89%,
+      hsl(200deg 100% 67%) 100%
+   );
+}
+
+.button {
+   color:white;
+   font-family:Helvetica, sans-serif;
+   font-weight:bold;
+   font-size:36px;
+   text-align: center;
+   text-decoration:none;
+   background-color:#FFA12B;
+   display:block;
+   position:relative;
+   padding:20px 40px;
+   
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   text-shadow: 0px 1px 0px #000;
+   filter: dropshadow(color=#000, offx=0px, offy=1px);
+   
+   -webkit-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+   -moz-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+   box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+   
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+ }
+ 
+.button:active{
+   top:10px;
+   background-color:#F78900;
+   
+   -webkit-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+   -moz-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3pxpx 0 #915100;
+   box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+ }
+ 
+
+.spinner {
+   margin: 40px;
+   width: 11.2px;
+   height: 11.2px;
+   animation: spinner-z355kx 1s infinite linear;
+   border-radius: 11.2px;
+   box-shadow: 28px 0px 0 0 #fff, 17.4px 21.8px 0 0 #fff, -6.2px 27.2px 0 0 #fff, -25.2px 12px 0 0 #fff, -25.2px -12px 0 0 #fff, -6.2px -27.2px 0 0 #fff, 17.4px -21.8px 0 0 #fff;
+}
+
+@keyframes spinner-z355kx {
+   to {
+      transform: rotate(360deg);
+   }
+}
