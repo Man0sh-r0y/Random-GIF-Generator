@@ -58,10 +58,6 @@ I used this below API to get specified GIF based on search Result
   https://api.giphy.com/v1/gifs/random?api_key={API_KEY}&tag={tag}
 ```
 
-## Screenshots
-![RandomGIF](https://github.com/Man0sh-r0y/Random-GIF-Generator/assets/96605313/4dff205e-3873-4b7d-a03d-b4484603165f)
-
-
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
