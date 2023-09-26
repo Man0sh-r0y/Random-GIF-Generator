@@ -31,7 +31,6 @@ cd Random-GIF-Generator
 **Step 3**: Install the project dependencies using npm:
 ```bash
 npm install
-npm install axios
 ```
 ## Usage
 
